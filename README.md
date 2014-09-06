@@ -1,3 +1,47 @@
+NightwatchCss
+============
+
+It's just a fork of WebdriverCss for Nightwatch.js
+  - install package with npm
+```
+$ npm install yoh/nightwatchcss
+```
+ - use it in your test
+```js
+var nightwatchcss = require('nightwatchcss');
+
+module.exports = {
+
+  "Init nightwatchcss": function(browser) {
+    nightwatchcss.init(browser, {});
+  },
+
+  "I am a basic test": function(browser) {
+    browser
+      .url("http://yoursite.com")
+      .assert.title('your title')
+      .webdrivercss('homepage', {
+        screenWidth: [1024, 720],
+        exclude: "#comments, .avatar"
+      }, function(err, res){
+        console.log('assert nothing');
+      })
+      .pause(1000)
+      .end()
+    ;
+  }
+};
+
+```
+
+
+
+
+
+
+
+
+
 WebdriverCSS [![Build Status](https://travis-ci.org/webdriverio/webdrivercss.png?branch=master)](https://travis-ci.org/webdriverio/webdrivercss) [![Coverage Status](https://coveralls.io/repos/webdriverio/webdrivercss/badge.png?branch=master)](https://coveralls.io/r/webdriverio/webdrivercss?branch=master)
 ============
 
