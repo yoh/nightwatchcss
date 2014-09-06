@@ -1,8 +1,8 @@
 {
-  "name": "webdrivercss",
+  "name": "nightwatchcss",
   "version": "0.3.0",
-  "description": "Regression testing tool for WebdriverJS",
-  "author": "Christian Bromann <mail@christian-bromann.com>",
+  "description": "Regression testing tool for Nightwatch",
+  "author": "",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/webdriverio/webdrivercss.git"
+    "url": "git://github.com/yoh/nightwatchcss.git"
   },
   "dependencies": {
     "async": "^0.2.10",
@@ -35,15 +35,11 @@
     "webdriverio": "^2.2.0"
   },
   "keywords": [
-    "webdriverjs",
-    "webdriverio",
-    "webdriver",
+    "nightwatch",
+    "webdrivercss",
     "phantomcss",
-    "regression",
-    "test",
-    "testing",
-    "css",
-    "responsive",
-    "design"
+    "resemble",
+    "visual",
+    "regression"
   ]
 }
