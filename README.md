@@ -93,7 +93,7 @@ and [Cairo](https://github.com/LearnBoost/node-canvas/wiki/_pages) preinstalled.
 
 #### Mac OS X using [Homebrew](http://mxcl.github.io/homebrew/)
 ```sh
-$ brew install imagemagick graphicsmagick cairo
+$ brew install imagemagick graphicsmagick cairo pkg-config
 ```
 
 #### Ubuntu using apt-get (not tested)
@@ -101,6 +101,7 @@ $ brew install imagemagick graphicsmagick cairo
 $ sudo apt-get install imagemagick libmagickcore-dev
 $ sudo apt-get install graphicsmagick
 $ sudo apt-get install libcairo2-dev
+$ sudo apt-get install pkg-config
 ```
 
 #### Windows
